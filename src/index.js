@@ -12,9 +12,12 @@ import { RenderPropMenu } from './example/render_prop-menu';
 
 
 ReactDOM.render(<div>
-   <div>
-       容器组件：<CPGood />
-   </div>
+   <form>
+     <fieldset>
+       <legend>容器组件 VS 展示组件</legend>
+       <CPGood />
+     </fieldset>
+   </form>
    <form>
      <fieldset> 
       <legend>代理组件</legend> 
@@ -24,7 +27,6 @@ ReactDOM.render(<div>
       </div> 
      </fieldset>      
    </form>
-   
    <form>
     <fieldset>
       <legend>高阶组件</legend>

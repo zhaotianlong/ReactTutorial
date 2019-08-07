@@ -1,7 +1,7 @@
 import React from 'react'
 
- function ppHoc(WrappedComponent) {
-      return class extends React.Component {
+ const ppHoc =(WrappedComponent) => {
+ return class extends React.Component {
     state = {
         sex:'男',
         age:'27',
